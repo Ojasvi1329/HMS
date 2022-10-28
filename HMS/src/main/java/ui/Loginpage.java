@@ -35,7 +35,7 @@ public class Loginpage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         Password = new javax.swing.JLabel();
         LoginB = new javax.swing.JButton();
-        CancelB = new javax.swing.JButton();
+        RegisterB = new javax.swing.JButton();
         tfPassword = new javax.swing.JPasswordField();
         tflogin = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -57,10 +57,10 @@ public class Loginpage extends javax.swing.JFrame {
             }
         });
 
-        CancelB.setText("CANCEL");
-        CancelB.addActionListener(new java.awt.event.ActionListener() {
+        RegisterB.setText("Register");
+        RegisterB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CancelBActionPerformed(evt);
+                RegisterBActionPerformed(evt);
             }
         });
 
@@ -81,7 +81,7 @@ public class Loginpage extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(LoginB)
                         .addGap(128, 128, 128)
-                        .addComponent(CancelB))
+                        .addComponent(RegisterB))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
@@ -118,7 +118,7 @@ public class Loginpage extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 144, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(LoginB)
-                    .addComponent(CancelB))
+                    .addComponent(RegisterB))
                 .addGap(153, 153, 153))
         );
 
@@ -187,9 +187,11 @@ public class Loginpage extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_LoginBActionPerformed
 
-    private void CancelBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelBActionPerformed
-
-    }//GEN-LAST:event_CancelBActionPerformed
+    private void RegisterBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterBActionPerformed
+   Register1 r=new Register1 ();
+        r.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_RegisterBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -227,9 +229,9 @@ public class Loginpage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton CancelB;
     private javax.swing.JButton LoginB;
     private javax.swing.JLabel Password;
+    private javax.swing.JButton RegisterB;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

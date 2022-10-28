@@ -4,6 +4,8 @@
  */
 package ui;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author HP
@@ -26,45 +28,573 @@ public class Admin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel1 = new javax.swing.JPanel();
+        firstpage = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        tfname = new javax.swing.JTextField();
+        tfadd = new javax.swing.JTextField();
+        tfpin = new javax.swing.JTextField();
+        tfphoneno = new javax.swing.JTextField();
+        CREATEBUTTON = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        firstpage1 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        tfname1 = new javax.swing.JTextField();
+        tfadd1 = new javax.swing.JTextField();
+        tfpin1 = new javax.swing.JTextField();
+        tfphoneno1 = new javax.swing.JTextField();
+        MaleRadioButton1 = new javax.swing.JRadioButton();
+        femaleRadioButton1 = new javax.swing.JRadioButton();
+        CREATEBUTTON1 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        tfbodytemp = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        tfbloodpressure = new javax.swing.JTextField();
+        jLabel17 = new javax.swing.JLabel();
+        tfage = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        tfwardno = new javax.swing.JTextField();
+        jPanel3 = new javax.swing.JPanel();
+        firstpage2 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        tfname2 = new javax.swing.JTextField();
+        tfadd2 = new javax.swing.JTextField();
+        tfpin2 = new javax.swing.JTextField();
+        tfphoneno2 = new javax.swing.JTextField();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        CREATEBUTTON2 = new javax.swing.JButton();
+        jLabel25 = new javax.swing.JLabel();
+        tfbodytemp1 = new javax.swing.JTextField();
+        jLabel26 = new javax.swing.JLabel();
+        jComboBoxDepartment = new javax.swing.JComboBox<>();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        tfage1 = new javax.swing.JTextField();
+        jLabel29 = new javax.swing.JLabel();
+        tfwardno1 = new javax.swing.JTextField();
+        jLabel30 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTable2.setBackground(new java.awt.Color(255, 51, 102));
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+        firstpage.setBackground(new java.awt.Color(51, 153, 255));
 
-            },
-            new String [] {
-                "NAME", "ADDRESS", "PINCODE", "PHONENO", "BODYTEMP", "DEPARTMENT", "BP", "AGE", "WARDNO"
+        jLabel1.setText("NAME");
+
+        jLabel2.setText("PINCODE");
+
+        jLabel3.setText("ADDRESS");
+
+        jLabel5.setText("PHONENO");
+
+        tfphoneno.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfphonenoActionPerformed(evt);
             }
-        ));
-        jScrollPane1.setViewportView(jTable2);
+        });
+
+        CREATEBUTTON.setText("CREATE");
+        CREATEBUTTON.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CREATEBUTTONActionPerformed(evt);
+            }
+        });
+
+        jLabel9.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jLabel9.setText("ENTER HOSPITAL DETAILS");
+
+        javax.swing.GroupLayout firstpageLayout = new javax.swing.GroupLayout(firstpage);
+        firstpage.setLayout(firstpageLayout);
+        firstpageLayout.setHorizontalGroup(
+            firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpageLayout.createSequentialGroup()
+                .addGap(49, 49, 49)
+                .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(CREATEBUTTON, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, firstpageLayout.createSequentialGroup()
+                        .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel5))
+                        .addGap(91, 91, 91)
+                        .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tfphoneno, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel9)
+                                .addComponent(tfname, javax.swing.GroupLayout.DEFAULT_SIZE, 245, Short.MAX_VALUE)
+                                .addComponent(tfadd)
+                                .addComponent(tfpin)))))
+                .addContainerGap(1132, Short.MAX_VALUE))
+        );
+        firstpageLayout.setVerticalGroup(
+            firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpageLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(jLabel9)
+                .addGap(32, 32, 32)
+                .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(tfname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(29, 29, 29)
+                .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfadd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(22, 22, 22)
+                .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfpin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2))
+                .addGap(28, 28, 28)
+                .addGroup(firstpageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(tfphoneno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(38, 38, 38)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(CREATEBUTTON)
+                .addContainerGap(618, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(firstpage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(firstpage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        jTabbedPane1.addTab("Hospital", jPanel1);
+
+        firstpage1.setBackground(new java.awt.Color(51, 153, 255));
+
+        jLabel4.setText("NAME");
+
+        jLabel7.setText("PINCODE");
+
+        jLabel8.setText("ADDRESS");
+
+        jLabel10.setText("GENDER");
+
+        jLabel11.setText("PHONENO");
+
+        MaleRadioButton1.setText("Male");
+
+        femaleRadioButton1.setText("FEMALE");
+
+        CREATEBUTTON1.setText("CREATE");
+        CREATEBUTTON1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CREATEBUTTON1ActionPerformed(evt);
+            }
+        });
+
+        jLabel13.setText("BODYTEMPERATURE");
+
+        jLabel14.setText("SYMPTOMS");
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select input", "FEVER", "COLD", "HEADACHE", "BODYACHE", "ACNE", "DIARREHA" }));
+
+        jLabel15.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jLabel15.setText("ENTER PATIENTS DETAILS");
+
+        jLabel16.setText("BLOOD PRESSURE");
+
+        jLabel17.setText("AGE");
+
+        tfage.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfageActionPerformed(evt);
+            }
+        });
+
+        jLabel18.setText("WARDNO");
+
+        javax.swing.GroupLayout firstpage1Layout = new javax.swing.GroupLayout(firstpage1);
+        firstpage1.setLayout(firstpage1Layout);
+        firstpage1Layout.setHorizontalGroup(
+            firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpage1Layout.createSequentialGroup()
+                .addGap(49, 49, 49)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel18)
+                    .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(firstpage1Layout.createSequentialGroup()
+                            .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel10)
+                                .addComponent(jLabel4)
+                                .addComponent(jLabel7)
+                                .addComponent(jLabel8))
+                            .addGap(99, 99, 99)
+                            .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(firstpage1Layout.createSequentialGroup()
+                                    .addComponent(MaleRadioButton1)
+                                    .addGap(31, 31, 31)
+                                    .addComponent(femaleRadioButton1))
+                                .addComponent(jLabel15)
+                                .addComponent(tfname1, javax.swing.GroupLayout.DEFAULT_SIZE, 245, Short.MAX_VALUE)
+                                .addComponent(tfadd1)
+                                .addComponent(tfpin1)))
+                        .addComponent(CREATEBUTTON1)
+                        .addGroup(firstpage1Layout.createSequentialGroup()
+                            .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel11)
+                                .addComponent(jLabel12)
+                                .addComponent(jLabel13)
+                                .addComponent(jLabel14)
+                                .addComponent(jLabel16)
+                                .addComponent(jLabel17))
+                            .addGap(34, 34, 34)
+                            .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(tfphoneno1)
+                                .addComponent(tfbodytemp)
+                                .addGroup(firstpage1Layout.createSequentialGroup()
+                                    .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(tfage, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(tfbloodpressure, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, 251, Short.MAX_VALUE)
+                                        .addComponent(tfwardno))
+                                    .addGap(0, 0, Short.MAX_VALUE))))))
+                .addContainerGap(1150, Short.MAX_VALUE))
+        );
+        firstpage1Layout.setVerticalGroup(
+            firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpage1Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(jLabel15)
+                .addGap(32, 32, 32)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(tfname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(29, 29, 29)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfadd1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8))
+                .addGap(22, 22, 22)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel10)
+                    .addGroup(firstpage1Layout.createSequentialGroup()
+                        .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(tfpin1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel7))
+                        .addGap(18, 18, 18)
+                        .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(MaleRadioButton1)
+                            .addComponent(femaleRadioButton1))))
+                .addGap(18, 18, 18)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfphoneno1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel11))
+                .addGap(10, 10, 10)
+                .addComponent(jLabel12)
+                .addGap(16, 16, 16)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel13)
+                    .addComponent(tfbodytemp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(29, 29, 29)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14))
+                .addGap(34, 34, 34)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel16)
+                    .addComponent(tfbloodpressure, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel17)
+                    .addComponent(tfage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(firstpage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(tfwardno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(64, 64, 64)
+                .addComponent(CREATEBUTTON1)
+                .addContainerGap(341, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1593, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(firstpage1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 921, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(firstpage1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+
+        jTabbedPane1.addTab("Doctor", jPanel2);
+
+        firstpage2.setBackground(new java.awt.Color(255, 153, 153));
+
+        jLabel19.setText("NAME");
+
+        jLabel20.setText("PINCODE");
+
+        jLabel21.setText("ADDRESS");
+
+        jLabel22.setText("GENDER");
+
+        jLabel23.setText("PHONENO");
+
+        jRadioButton1.setText("MALE");
+
+        jRadioButton2.setText("FEMALE");
+
+        CREATEBUTTON2.setText("BOOK APOINTMENT");
+        CREATEBUTTON2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CREATEBUTTON2ActionPerformed(evt);
+            }
+        });
+
+        jLabel26.setText("DEPARTMENT");
+
+        jComboBoxDepartment.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select input", "DENTAL", "MICROBIOLOGY", "CARDIOLOGY", "GYNAECOLOGY", "NEUROLOGY", " " }));
+
+        jLabel27.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jLabel27.setText("BOOK APPOINTMENT");
+
+        jLabel28.setText("AGE");
+
+        tfage1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfage1ActionPerformed(evt);
+            }
+        });
+
+        jLabel29.setText("WARDNO");
+
+        jLabel30.setText("BLOODGROUP");
+
+        javax.swing.GroupLayout firstpage2Layout = new javax.swing.GroupLayout(firstpage2);
+        firstpage2.setLayout(firstpage2Layout);
+        firstpage2Layout.setHorizontalGroup(
+            firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpage2Layout.createSequentialGroup()
+                .addGap(49, 49, 49)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(firstpage2Layout.createSequentialGroup()
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel23)
+                            .addComponent(jLabel24)
+                            .addComponent(jLabel25)
+                            .addComponent(jLabel26)
+                            .addComponent(jLabel28)
+                            .addComponent(jLabel30)
+                            .addComponent(jLabel29))
+                        .addGap(71, 71, 71)
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tfbodytemp1)
+                            .addGroup(firstpage2Layout.createSequentialGroup()
+                                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jComboBoxDepartment, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tfage1, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tfwardno1, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 0, Short.MAX_VALUE))))
+                    .addGroup(firstpage2Layout.createSequentialGroup()
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel22)
+                            .addComponent(jLabel19)
+                            .addComponent(jLabel20)
+                            .addComponent(jLabel21))
+                        .addGap(99, 99, 99)
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(tfphoneno2)
+                            .addGroup(firstpage2Layout.createSequentialGroup()
+                                .addComponent(jRadioButton1)
+                                .addGap(31, 31, 31)
+                                .addComponent(jRadioButton2))
+                            .addComponent(jLabel27)
+                            .addComponent(tfname2, javax.swing.GroupLayout.DEFAULT_SIZE, 245, Short.MAX_VALUE)
+                            .addComponent(tfadd2)
+                            .addComponent(tfpin2)))
+                    .addComponent(CREATEBUTTON2))
+                .addGap(400, 400, 400))
+        );
+        firstpage2Layout.setVerticalGroup(
+            firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(firstpage2Layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(jLabel27)
+                .addGap(32, 32, 32)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(tfname2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(29, 29, 29)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfadd2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel21))
+                .addGap(22, 22, 22)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel22)
+                    .addGroup(firstpage2Layout.createSequentialGroup()
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(tfpin2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel20))
+                        .addGap(18, 18, 18)
+                        .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jRadioButton1)
+                            .addComponent(jRadioButton2))))
+                .addGap(18, 18, 18)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tfphoneno2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23))
+                .addGap(10, 10, 10)
+                .addComponent(jLabel24)
+                .addGap(16, 16, 16)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel25)
+                    .addComponent(tfbodytemp1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel30))
+                .addGap(29, 29, 29)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBoxDepartment, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel26))
+                .addGap(30, 30, 30)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel28)
+                    .addComponent(tfage1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(25, 25, 25)
+                .addGroup(firstpage2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(tfwardno1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(57, 57, 57)
+                .addComponent(CREATEBUTTON2)
+                .addContainerGap(101, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(firstpage2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(525, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(firstpage2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 278, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Patient", jPanel3);
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1593, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 921, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Community", jPanel4);
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1593, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 921, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Admin", jPanel5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1004, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(135, 135, 135)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 733, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(136, Short.MAX_VALUE)))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 721, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(277, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 543, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(48, 48, 48)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 446, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(49, Short.MAX_VALUE)))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(437, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void CREATEBUTTONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CREATEBUTTONActionPerformed
+        if(tfname.getText().equals("")||tfadd.getText().equals("")||tfpin.getText().equals("")||tfphoneno.getText().equals(""))
+        {
+            JOptionPane.showMessageDialog(this,"Please Enter All Details");
+    }//GEN-LAST:event_CREATEBUTTONActionPerformed
+    }
+    private void tfphonenoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfphonenoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfphonenoActionPerformed
+
+    private void CREATEBUTTON1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CREATEBUTTON1ActionPerformed
+        if(tfname.getText().equals("")||tfadd.getText().equals("")||tfpin.getText().equals("")||tfphoneno.getText().equals("")||tfbodytemp.getText().equals("")||tfbloodpressure.getText().equals("")||tfage.getText().equals("")||tfwardno.getText().equals(""))
+        {
+            JOptionPane.showMessageDialog(this,"Please Enter All Details");
+    }//GEN-LAST:event_CREATEBUTTON1ActionPerformed
+    }
+    private void tfageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfageActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfageActionPerformed
+
+    private void CREATEBUTTON2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CREATEBUTTON2ActionPerformed
+        if(tfname.getText().equals("")||tfadd.getText().equals("")||tfpin.getText().equals("")||tfphoneno.getText().equals("")||tfbodytemp.getText().equals("")||tfage.getText().equals("")){
+            JOptionPane.showMessageDialog(this,"Please Enter All Details");
+    }//GEN-LAST:event_CREATEBUTTON2ActionPerformed
+    }
+    private void tfage1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfage1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfage1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -102,7 +632,72 @@ public class Admin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable2;
+    private javax.swing.JButton CREATEBUTTON;
+    private javax.swing.JButton CREATEBUTTON1;
+    private javax.swing.JButton CREATEBUTTON2;
+    private javax.swing.JRadioButton MaleRadioButton1;
+    private javax.swing.JRadioButton femaleRadioButton1;
+    private javax.swing.JPanel firstpage;
+    private javax.swing.JPanel firstpage1;
+    private javax.swing.JPanel firstpage2;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBoxDepartment;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTextField tfadd;
+    private javax.swing.JTextField tfadd1;
+    private javax.swing.JTextField tfadd2;
+    private javax.swing.JTextField tfage;
+    private javax.swing.JTextField tfage1;
+    private javax.swing.JTextField tfbloodpressure;
+    private javax.swing.JTextField tfbodytemp;
+    private javax.swing.JTextField tfbodytemp1;
+    private javax.swing.JTextField tfname;
+    private javax.swing.JTextField tfname1;
+    private javax.swing.JTextField tfname2;
+    private javax.swing.JTextField tfphoneno;
+    private javax.swing.JTextField tfphoneno1;
+    private javax.swing.JTextField tfphoneno2;
+    private javax.swing.JTextField tfpin;
+    private javax.swing.JTextField tfpin1;
+    private javax.swing.JTextField tfpin2;
+    private javax.swing.JTextField tfwardno;
+    private javax.swing.JTextField tfwardno1;
     // End of variables declaration//GEN-END:variables
 }
