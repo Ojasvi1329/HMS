@@ -15,9 +15,9 @@ public class Vitalsigns {
     private String Entered;
     private String Updated;
     
-    public Vitalsigns(private int bloodpressure;
-    private int temperature, int respirationrate,
-    private String Entered,private String Updated)
+    public Vitalsigns(int bloodpressure, int temperature,int respirationrate,String Entered,String Updated){
+        
+    }
 
     public String getEntered() {
         return Entered;

@@ -145,11 +145,36 @@ public class Loginpage extends javax.swing.JFrame {
         String password=tfPassword.getText();
         String login=tflogin.getText();
 
-        if(tfPassword.getText().equals("admin123")&& tflogin.getText().equals("Admin")|| tfPassword.getText().equals("doctor123")&& tflogin.getText().equals("Doctor")|| tfPassword.getText().equals("Community123")&& tflogin.getText().equals("Community")|| tfPassword.getText().equals("patient123")&& tflogin.getText().equals("Patient"))
-        {
-            tfPassword.setText("");
-            tflogin.setText("");
-        }
+        if(tfPassword.getText().equals("admin123")&& tflogin.getText().equals("Admin"))
+            {
+       tfPassword.setText("");
+        tflogin.setText("");
+   Admin a=new  Admin();
+     a.setVisible(true);
+     this.dispose();  
+            }
+    else if( tfPassword.getText().equals("doctor123")&& tflogin.getText().equals("Doctor"))
+                   {
+                     tfPassword.setText("");
+        tflogin.setText("");
+    Doctoraccess d=new  Doctoraccess();
+     d.setVisible(true);
+     this.dispose();  
+                   }
+           else if (tfPassword.getText().equals("Community123")&& tflogin.getText().equals("Community"))
+           {
+                
+           }
+               
+              else if(tfPassword.getText().equals("patient123")&& tflogin.getText().equals("Patient"))
+              {
+                tfPassword.setText("");
+        tflogin.setText("");
+    Patientaccess p=new  Patientaccess();
+     p.setVisible(true);
+     this.dispose();     
+              }
+ 
         else if(tfPassword.getText().equals("") || tflogin.getText().equals(""))
         {
             JOptionPane.showMessageDialog(this,"Please Enter All Details");
