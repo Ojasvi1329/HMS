@@ -43,7 +43,7 @@ Using the application we are able to perform following operations:
 
 # Class Diagram
 
-![Class Diagram](./UML/class/assignment2_class.png)
+![Class Diagram](https://github.com/Ojasvi1329/HMS/blob/main/HMS/class/assignment2_class.png)
 
 2. Hospital Admin:
 
