@@ -39,7 +39,7 @@ Using the application we are able to perform following operations:
 
 1. System Admin:
 
-![System Admin Sequence Diagram](./UML/sequence%20Diagram/system_admin_sq.png)
+![System Admin Sequence Diagram](https://github.com/Ojasvi1329/HMS/blob/main/HMS/sequence%20Diagram/system_admin.drawio.png)
 
 # Class Diagram
 
@@ -47,19 +47,19 @@ Using the application we are able to perform following operations:
 
 2. Hospital Admin:
 
-![Hospital Admin Sequence Diagram](./UML/sequence%20Diagram/Hospital%20Admin_sq.png)
+![Hospital Admin Sequence Diagram](https://github.com/Ojasvi1329/HMS/blob/main/HMS/sequence%20Diagram/hospital_admin.drawio.png)
 
 3. Community Admin: 
 
-![Community Admin Sequence Diagram](./UML/sequence%20Diagram/community_sq.png)
+![Community Admin Sequence Diagram](https://github.com/Ojasvi1329/HMS/blob/main/HMS/sequence%20Diagram/community_admin.drawio.png)
 
 4. Patient:
 
-![Patient Sequence Diagramn](/)
+![Patient Sequence Diagramn](https://github.com/Ojasvi1329/HMS/blob/main/HMS/sequence%20Diagram/Patient_sq.png)
 
 5. Doctor:
 
-![Doctor Sequence Diagram](./UML/sequence%20Diagram/doctor_sq.png)
+![Doctor Sequence Diagram](https://github.com/Ojasvi1329/HMS/blob/main/HMS/sequence%20Diagram/doctor_sq.png)
 
 
 
