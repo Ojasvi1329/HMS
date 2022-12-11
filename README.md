@@ -7,7 +7,7 @@
 
 This repo is for INFO 5100 assignments, as part of the assignment 2 we are creating a Swing application which is a hospital management system.
 
-# Replication
+## Replication
 
 To run the project clone the project locally and open it in the apache netbeans or any ide.
 
